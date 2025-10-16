@@ -1,0 +1,19 @@
+name = "cloudflare-ai-starter"
+main = "src/workers/chat.ts"
+compatibility_date = "2025-10-13"
+account_id = "4b4034b8206144ba2ab7ce903872b438"
+type = "javascript"
+
+[durable_objects]
+bindings = [
+  { name = "CHAT_STATE_DO", class_name = "ChatState" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatState"]
+
+[vars]
+# Reference names for Workers AI model and other bindings
+LLAMA_MODEL_REF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+VECTORIZE_NAMESPACE = "VECTORIZE_NAMESPACE_PLACEHOLDER"

@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-ai-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "wrangler dev --remote",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251011.0",
+    "typescript": "^5.0.0"
+  }
+}
