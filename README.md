@@ -92,4 +92,8 @@ You: Hello
 Bot: Echo: Hello
 ```
 
+**Output**
+
+<img width="1322" height="711" alt="Screenshot 2025-10-15 at 7 08 45 PM" src="https://github.com/user-attachments/assets/2f1c8cd2-6114-4de1-b4eb-f14b00a5c839" />
+
 
